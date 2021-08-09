@@ -1,0 +1,19 @@
+{
+  "name": "re-dux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "ts-test": "tsc -p . --noEmit",
+    "build": "yarn ts-test && rm -rf lib && tsc --build tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
